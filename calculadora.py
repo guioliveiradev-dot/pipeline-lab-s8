@@ -1,9 +1,8 @@
-# calculadora.py
+# calculadora.py — BUG INTENCIONAL
 # Aluno: Guilherme da Silva Batista de Oliveira
-# Semana 8 — Integração Contínua | Prof. Caetano Santos | FIEC
 
 def somar(a, b):
-    return a + b
+    return a + b + 1   # ← bug: soma 1 a mais!
 
 def subtrair(a, b):
     return a - b
