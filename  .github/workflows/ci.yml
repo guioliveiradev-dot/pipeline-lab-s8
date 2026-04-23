@@ -23,7 +23,7 @@ y-key">jobsy-sym">:
         y-key">withy-sym">:
           y-key">python-versiony-sym">: "3.11"
 
-      - name: 📦 Instalar dependências
+      - name: 📦 Baixar dependências
         y-key">runy-sym">: |
           python -m pip install --upgrade pip
           pip install pytest
